@@ -6,7 +6,6 @@
     --light-color: #f4f4f4;
     --lose-color: #dc3545;
     --win-color: #28a745;
-    --modal-duration: 1s;
 }
 
 /* Reset */ 
@@ -61,6 +60,7 @@ body {
     display: grid;
     grid-template-columns: repeat(2, ifr);
     font-size: 1.2rem;
+    color: #fff;
 }
 
 .score p:first-child {
@@ -72,7 +72,7 @@ body {
 
 .choices {
     display: grid;
-    grid-template-columns: repeat(3, ifr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 2rem;
     margin-top: 3rem;
     text-align: center;
